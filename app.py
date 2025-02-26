@@ -8,6 +8,11 @@ def home():
 @app.route('/about')
 def about():
     return "This is a simple Flask API."
+@app.route('/new')
+def new():
+    return "This is a new endpoint for PR!!"
 
 if __name__ == "__main__":
     app.run(debug=True) 
+
+# This is a comment in the app.py

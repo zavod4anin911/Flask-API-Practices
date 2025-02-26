@@ -1,3 +1,5 @@
  venv/
 __pycache__/
 *.pyc
+
+# This is a comment in the .gitignore
